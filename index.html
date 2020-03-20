@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Challenge</title>
+</head>
+<body>
+    <div class="container">
+      <header>
+        <h1>University Challenge</a></h1>
+        <h2>presented by DAB</a></h2>
+      </header>
+
+      <div id="okta-login-container"></div>
+
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-md-auto align-self-center">
+          <p id="login"><b>NOTE</b>: You are not currently logged in. If you'd like to start your own
+            chat room please <button type="button" class="btn btn-light">log in</button></p>
+          <div id="url" class="alert alert-dark" role="alert">
+            <span id="roomIntro">ROOM URL</span>: <span id="roomUrl"></span>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+
+      <div id="remotes" class="row">
+        <div class="col-md-6">
+          <div class="videoContainer">
+            <video id="selfVideo"></video>
+            <meter id="localVolume" class="volume"></meter>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>Hacked together by <a href="https://twitter.com/rdegges">@rdegges</a>
+        and <a href="https://twitter.com/oktadev">@oktadev</a>.</p>
+    </footer>
+  </body>
+</html>
